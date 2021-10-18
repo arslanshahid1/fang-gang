@@ -5,8 +5,12 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Balsamiq Sans", sans-serif;
 }
 
 .cover {
@@ -34,6 +38,10 @@ body {
     font-size: 22px;
     font-weight: 800;
     transition: all 0.3s ease;
+}
+
+.navbar a.pxl {
+    color: #faba60;
 }
 
 .navbar a.nav-link:hover {
@@ -252,4 +260,62 @@ body {
     .faq img {
         width: 300px;
     }
+}
+
+
+/* -------------------------------------- Team ------------------------------------- */
+
+.team {
+    background-color: #6950d0;
+    color: #ffff;
+}
+
+.team .team1 {
+    background-color: #262022;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.team .team1:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #353535;
+}
+
+.team .team1:hover h4,
+.team .team1:hover p {
+    text-shadow: 0 0 10px #ed9419;
+}
+
+.team .team1 img {
+    border-radius: 10px;
+}
+
+.team hr {
+    border-color: #474747;
+}
+
+.team a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:576px) {
+    .team .profile-pic {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .team .heading {
+        width: 90%;
+    }
+}
+
+
+/* ------------------------------ Footer -------------------------- */
+
+.footer {
+    background-color: #262022;
+    color: white
 }
