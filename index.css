@@ -74,17 +74,20 @@ body {
     text-transform: uppercase;
 }
 
-.mint .btn {
+.mintBtn {
     background-color: #ed9419;
     font-size: 30px;
     font-weight: 700;
     color: white;
+    border: none;
+    border-radius: 5px;
 }
 
-.mint .btn:hover {
+
+/* .mintBtn:hover {
     background-color: white;
     color: #ed9419;
-}
+} */
 
 .mint select,
 .mint select:focus {
